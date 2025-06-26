@@ -1,0 +1,23 @@
+{
+  "name": "fereloper/laravelmeet",
+  "description": "A Laravel package to manage Zoom/Google Meet etc.",
+  "autoload": {
+    "psr-4": {
+      "LaravelMeet\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "LaravelMeet\\LaravelMeetServiceProvider"
+      ],
+      "aliases": {
+        "LaravelMeet": "LaravelMeet\\Facades\\LaravelMeet"
+      }
+    }
+  },
+  "require": {
+    "php": "^8.0",
+    "illuminate/support": "^9.0|^10.0"
+  }
+}
